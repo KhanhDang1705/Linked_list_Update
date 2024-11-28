@@ -47,6 +47,10 @@ public class Main {
             System.out.println("Khong tim thay du lieu.");
         }
 
+        linkedList.sortAtPosition(1,4);
+        System.out.print("Danh sach da sap xep trong khoang: ");
+        linkedList.display();
+
         linkedList.sort();
         System.out.print("Danh sach da sap xep: ");
         linkedList.display();

@@ -148,4 +148,29 @@ public class MyLinkedList {
             } while (swapped);
         }
     }
+
+    public void sortAtPosition(int start, int end){
+        if (start > end || end < 0 || start < 0){
+            return;
+        }
+        Node temp = head;
+        int i = 0;
+        while (i < start){
+            temp = temp.getNext();
+            i++;
+        }
+        while (i < end){
+            Node temp2 = temp.getNext();
+            while (temp2 != null){
+                if (temp.getData() > temp2.getData()){
+                    int tempData = temp.getData();
+                    temp.setData(temp2.getData());
+                    temp2.setData(tempData);
+                }
+                temp2 = temp2.getNext();
+            }
+            temp = temp.getNext();
+            i++;
+        }
+    }
 }

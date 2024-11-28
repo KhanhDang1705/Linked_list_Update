@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Linked_list_demo.iml" filepath="$PROJECT_DIR$/Linked_list_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linked_list_Update.iml" filepath="$PROJECT_DIR$/Linked_list_Update.iml" />
     </modules>
   </component>
 </project>
