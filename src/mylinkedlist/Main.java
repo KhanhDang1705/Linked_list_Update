@@ -54,5 +54,7 @@ public class Main {
         linkedList.sort();
         System.out.print("Danh sach da sap xep: ");
         linkedList.display();
+
+        System.out.println("HelloWorld!");
     }
 }
