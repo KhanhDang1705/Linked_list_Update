@@ -1,7 +1,5 @@
 package mylinkedlist;
 
-import javax.management.StandardMBean;
-
 public class MyLinkedList {
     private Node head;
 
